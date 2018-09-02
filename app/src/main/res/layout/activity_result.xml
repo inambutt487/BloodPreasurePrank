@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:weightSum="11"
+    tools:context="com.example.butt.bloodpreasureprank.ResultActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top">
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="ca-app-pub-3444255945927869/7948272512" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:background="@drawable/title" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/result_display"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <ImageView
+            android:id="@+id/cayegory"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_weight="0.75"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:background="@drawable/your_blood_preasure"
+            android:layout_marginRight="@dimen/_20sdp" />
+
+        <ImageView
+            android:id="@+id/stage"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.75"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="@dimen/_300sdp"
+            android:layout_height="@dimen/_240sdp"
+            android:background="@drawable/metter"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2.1">
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/systolic"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginLeft="@dimen/_115sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:text="00"
+                android:textColor="#fb9c06"
+                android:textSize="@dimen/_20sdp" />
+
+
+            <TextView
+                android:id="@+id/diastolic"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginLeft="@dimen/_122sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:text="00"
+                android:textColor="#fb9c06"
+                android:textSize="@dimen/_20sdp" />
+
+            <TextView
+                android:id="@+id/plses"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginLeft="@dimen/_119sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:text="00"
+                android:textColor="#fb9c06"
+                android:textSize="@dimen/_15sdp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="8" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom">
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="ca-app-pub-3444255945927869/7948272512" />
+    </LinearLayout>
+</LinearLayout>

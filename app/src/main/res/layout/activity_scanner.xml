@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context="com.example.butt.bloodpreasureprank.ScannerActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top">
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="ca-app-pub-3444255945927869/7948272512" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/title" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/statusweight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="4.5"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="@dimen/_280sdp"
+            android:layout_height="@dimen/_230sdp"
+            android:background="@drawable/metter3"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="7.5"
+                android:gravity="center">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/herat"
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_marginRight="@dimen/_35sdp"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/thumbscanbtn"
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_80sdp"
+                    android:layout_marginLeft="@dimen/_100sdp"
+                    android:background="@drawable/machine" />
+
+                <View
+                    android:id="@+id/bar"
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_2sdp"
+                    android:layout_marginLeft="@dimen/_100sdp"
+                    android:background="#e00023"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom">
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="ca-app-pub-3444255945927869/7948272512" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/bg"
+    tools:context="com.example.butt.bloodpreasureprank.AboutActivity">
+
+    <RelativeLayout
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_430sdp"
+        android:background="@drawable/aboutbg">
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/mail"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:background="@drawable/mail"
+        android:layout_marginLeft="@dimen/_18sdp"
+        android:layout_marginTop="@dimen/_230sdp"/>
+
+    <ImageView
+        android:id="@+id/read_more"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:background="@drawable/read_more"
+        android:layout_marginTop="@dimen/_407sdp"
+        android:layout_marginLeft="@dimen/_140sdp"/>
+</RelativeLayout>
